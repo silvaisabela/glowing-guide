@@ -1,14 +1,14 @@
 :root{
     /* Desktop */
     --titleMain: 64px;
-    --lineHeightMain: 100px;
+    --lineHeightMain: 70px;
     --texMain: 38px;
     --textLineHeightMain: 45px;
 
     --title: 48px;
     --lineHeightTitle: 54px;
-    --paragraphy: 28px;
-    --lineHeightParagraphy: 40px;
+    --paragraphy: 24px;
+    --lineHeightParagraphy: 30px;
 
     --titlefree: 36px;
     --lineHeighttitlefree: 40px;
@@ -21,7 +21,7 @@
 
     --titleMobile: 30px;
     --lineHeightTitleMobile: 32px;
-    --paragraphyMobile: 24px;
+    --paragraphyMobile: 20px;
     --lineHeightParagraphyMobile: 32px;
 
     --titlefreeMobile: 26px;
