@@ -137,6 +137,21 @@
 .value_card .title{
     margin-bottom: 20px;
 }
+.teste{
+    display: flex;
+    align-items: flex-end;
+}
+.next_button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.button{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
 
 @media (max-width: 480px) {
     /* Header */
