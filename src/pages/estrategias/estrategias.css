@@ -1,7 +1,164 @@
+.header-estrategias {
+    background-color: #9e9e9e;
+}
+
+.header-estrategias__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+.header-estrategias__description {
+    width: 550px;
+}
+
+.header-estrategias__img-container {
+    width: 50%;
+    height: 400px;
+}
+
+.header-estrategias__img {
+    width: 100%;
+    height: 100%;
+}
+
+.estrategias {
+    height: auto;
+    padding-bottom: 70px;
+}
+
+.estrategias-content__main {
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.estrategias-continue__main {
+    display: flex;
+    height: auto;
+}
+
+.estrategias__text {
+    margin-left: 50px;
+    width: 100%;
+}
+
+.estrategias-img {
+    width: 250px;
+    height: auto;
+}
+
+.estrategias-group {
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.estrategias-group__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estrategias-group__img {
+    width: 500px;
+    height: auto;
+}
+
+.estrategias-group__description {
+    padding-bottom: 70px;
+}
+
+.estrategias-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.estrategias-card__title {
+    text-align: center;
+    padding: 80px;
+}
+
+.estrategias-card__content {
+    width: 280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.estrategias-card__img {
+    width: 130px;
+    padding-bottom: 10px;
+}
+
+.estrategias-card__text {
+    width: 280px;
+}
 
 @media (max-width: 480px) {
+    .header-estrategias__content {
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 70vh;
+    }
+    
+    .header-estrategias__description {
+        width: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    
+    .header-estrategias__img-container {
+        width: 60%;
+        height: auto;
+    }
+
+    .estrategias-continue__main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .estrategias__text {
+        padding-top: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .estrategias-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .estrategias-group__img {
+        width: 100%;
+    }
+
+    .estrategias-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .estrategias-card__text {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media (min-width:481px) and (max-width: 768px) {
 
+    .header-estrategias__content {
+        height: 50vh;
+    }
+
+    .estrategias-card__img {
+        width: 90px;
+    }
+
+    .estrategias-card__text {
+        width: 220px;
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
