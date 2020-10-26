@@ -1,11 +1,196 @@
+.header-parceiros {
+    height: auto;
+}
 
+.header-parceiros__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-parceiros__title-main {
+    padding-top: 80px;
+}
+
+.header-parceiros__description {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.parceiros-img {
+    height: 480px;
+    width: 100%;
+}
+
+.parceiros-img__container {
+    height: 100%;
+    width: 100%;
+}
+
+.parceiros-img__content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.parcerias-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parcerias-card__title {
+    text-align: center;
+    padding: 80px;
+}
+
+.parcerias-card__content {
+    width: 280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.parcerias-card__img {
+    width: 130px;
+    padding-bottom: 10px;
+}
+
+.parcerias-card__text {
+    width: 280px;
+}
+
+.parceiros-indicate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px ;
+}
+
+.parceiros-indicate__container{
+    width: 40%;
+}
+
+.parceiros-indicate__img{
+    width: 100%;
+    height: 300px;
+}
+
+.parceiros-indicate__text{
+    width: 55%;
+}
+
+
+.indicate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.indicate__button{
+    height: 70px;
+    width: 250px;
+    border: 5px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px ;
+    cursor: pointer;
+}
+
+.indicate__button:hover{
+    background-color: #000000;
+
+}
+.indicate__button-text{
+    color: #000000 ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.indicate__button-text:hover{
+    color: #ffffff ;
+}
 
 @media(max-width: 480px) {
+    .header-parceiros__title-main {
+        padding-top: 40px;
+    }
 
+    .header-parceiros__description {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .parcerias-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parcerias-card__title {
+        padding: 50px 0px;
+    }
+    
+    .parcerias-card__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .parceiros-indicate{
+        flex-direction: column;
+    }
+
+    .parceiros-indicate__container{
+        width: 100%;
+    }
+
+    .parceiros-indicate__text{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .indicate__button{
+        height: 50px;
+        width: 200px;
+        margin-bottom: 50px ;  
+    }
+
+    .indicate__button-text{
+        font-size: 24px;
+    }
+    
 }
 
 
 
 @media (min-width:481px) and (max-width: 768px) {
 
+    .parcerias-card__img {
+        width: 100px;
+    }
+    
+    .parcerias-card__text {
+        width: 220px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .parceiros-indicate{
+        justify-content: space-between;
+    }
+    
+    .parceiros-indicate__container{
+        width: 35%;
+    }
+    
+    .parceiros-indicate__text{
+        font-size: 20px;
+    }
 }

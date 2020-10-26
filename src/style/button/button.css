@@ -1,68 +1,81 @@
 .button {
-    height: 55px;
-    width: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    box-shadow: 0 5px black;
-    background-color: #000;
-    border: 1px solid white;
-    cursor: pointer;
-  }
-  
-  .button:active {
-    box-shadow: 0 2px black;
-    transform: translateY(2px);
-  }
-  
-  .button-title {
-    font-size: 3.5em;
-  }
+  height: 55px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 5px black;
+  background-color: #000;
+  border: 1px solid white;
+  cursor: pointer;
+}
 
-  .button-title__mosaico {
-    font-size: 2.5em;
-  }
+.button:active {
+  box-shadow: 0 2px black;
+  transform: translateY(2px);
+}
 
-  .button_game {
-    height: 50px;
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    box-shadow: 3px 3px #cccccc;
-    background-color: #c4c4c4;
-    border: 1px solid white;
-    cursor: pointer;
-    color: black;
+.button-title {
+  font-size: 3.5em;
+}
 
+.button-title__mosaico {
+  font-size: 2.5em;
+}
+
+.button_game {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: 3px 3px #000000;
+  background-color: #000000;
+  border: 1px solid white;
+  cursor: pointer;
+  color: #ffffff;
+  outline: none;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .button_game:active {
-    box-shadow: 2px 2px black;
-    transform: translateY(2px);
+  box-shadow: 2px 2px black;
+  transform: translateY(2px);
 }
-  
-  
-  @media(min-width:481px) and (max-width: 768px) {
 
-    .button {
-      height: 50px;
-      width: 50px;
-      border-radius: 50%;
-    }
+.button_transpared {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
 
-    .arrow__button{
-      width: 10px;
-    }
+@media(min-width:481px) and (max-width: 768px) {
 
-    .button-title {
-      font-size: 3em;
-    }
-    
-    .button-title__mosaico {
-      font-size: 2em;
-    }
-
+  .button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
   }
+
+  .arrow__button {
+    width: 10px;
+  }
+
+  .button-title {
+    font-size: 3em;
+  }
+
+  .button-title__mosaico {
+    font-size: 2em;
+  }
+
+}

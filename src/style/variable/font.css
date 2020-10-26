@@ -1,17 +1,17 @@
-:root{
-    /* Desktop */
-    --titleMain: 64px;
+:root {
+    /* Desktop *
+    --titleMain: 54px;
     --lineHeightMain: 70px;
     --texMain: 38px;
     --textLineHeightMain: 45px;
 
     --title: 48px;
     --lineHeightTitle: 54px;
-    --paragraphy: 28px;
-    --lineHeightParagraphy: 40px;
+    --paragraphy: 24px;
+    --lineHeightParagraphy: 30px;
 
-    --titlefree: 36px;
-    --lineHeighttitlefree: 40px;
+    --titlefree: 32px;
+    --lineHeighttitlefree: 38px;
 
     /* Mobile */
     --titleMobileMain: 32px;
@@ -21,12 +21,12 @@
 
     --titleMobile: 30px;
     --lineHeightTitleMobile: 32px;
-    --paragraphyMobile: 24px;
+    --paragraphyMobile: 20px;
     --lineHeightParagraphyMobile: 32px;
 
     --titlefreeMobile: 26px;
-    --lineHeighttitlefreeMobile:32px;
-    
+    --lineHeighttitlefreeMobile: 32px;
+
     /* Tablet */
     --titleTabletMain: 44px;
     --lineHeightTabletMain: 80px;
@@ -35,7 +35,7 @@
 
     --titleTablet: 38px;
     --lineHeightTitleTablet: 54px;
-    --paragraphyTablet:24px;
+    --paragraphyTablet: 24px;
     --lineHeightParagraphyTablet: 36px;
 
     --titlefreeTablet: 32px;
@@ -50,78 +50,78 @@
 }
 
 .textMain {
-    font-size: var( --texMain);
+    font-size: var(--texMain);
     line-height: var(--textLineHeightMain);
 }
 
-.title{
+.title {
     font-size: var(--title);
     line-height: var(--lineHeightTitle);
     font-weight: 700;
 }
 
-.paragraphy{
+.paragraphy {
     font-size: var(--paragraphy);
     line-height: var(--lineHeightParagraphy);
 }
 
-.titleFree{
+.titleFree {
     font-size: var(--titlefree);
     line-height: var(--lineHeighttitlefree);
     font-weight: 700;
 }
 
-@media(max-width: 480px){
+@media(max-width: 480px) {
     .titleMain {
         font-size: var(--titleMobileMain);
         line-height: var(--lineHeightMobileMain);
     }
 
     .textMain {
-        font-size: var( --texMobileMain);
+        font-size: var(--texMobileMain);
         line-height: var(--textLineHeightMobileMain);
     }
 
-    .title{
+    .title {
         font-size: var(--titleMobile);
         line-height: var(--lineHeightTitleMobile);
     }
-    
-    .paragraphy{
+
+    .paragraphy {
         font-size: var(--paragraphyMobile);
         line-height: var(--lineHeightParagraphyMobile);
     }
 
-    .titleFree{
+    .titleFree {
         font-size: var(--titlefreeMobile);
         line-height: var(--lineHeighttitlefreeMobile);
     }
-    
+
 }
 
 
-@media (min-width:481px) and (max-width: 768px){
+@media (min-width:481px) and (max-width: 768px) {
     .titleMain {
         font-size: var(--titleTabletMain);
         line-height: var(--lineHeightTabletMain);
     }
 
     .textMain {
-        font-size: var( --texTabletMain);
+        font-size: var(--texTabletMain);
         line-height: var(--textLineHeightTabletMain);
     }
 
-    .title{
+    .title {
         font-size: var(--titleTablet);
         line-height: var(--lineHeightTitleTablet);
     }
-    
-    .paragraphy{
+
+    .paragraphy {
         font-size: var(--paragraphyTablet);
         line-height: var(--lineHeightParagraphyTablet);
     }
 
-    .titleFree{
+    .titleFree {
         font-size: var(--titlefreeTablet);
         line-height: var(--lineHeightTitlefreeTablet);
     }
