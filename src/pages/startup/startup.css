@@ -5,7 +5,7 @@
 /* Header */
 .header{
     height: calc(100vh - 65px);
-    /* background-color: red; */
+
 }
 .textMain{
     margin: 100px 0px 50px;
@@ -29,12 +29,11 @@
 /* Startup services */
 .startup_about{
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    padding: 50px;
+    padding: 100px 50px;
 }
 
 .startup_about .title{
@@ -140,8 +139,185 @@
 }
 
 @media (max-width: 480px) {
+    /* Header */
+    .header{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textMain{
+        margin: 50px 0px 0px;
+    }
+
+    .header_content{
+        flex-direction:column;
+    }
+
+    .header_content .paragraphy{
+        text-align: justify;
+        width: 100%;
+    }
+
+    .header_image{
+        width: 80%;
+        height: 200px;
+        margin: 0px auto;
+    }
+
+    /* Startup services */
+    .startup_about{
+        padding: 50px 10px;
+        flex-direction: column;
+    }
+
+    .startup_about .paragraphy{
+        width: 100%
+    }
+
+    .startup_img{
+        margin-top: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #robot{
+        flex-direction: column;
+    }
+
+    /* Nosso time */
+    .our_team{
+        width: 100%;
+        margin: 50px 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .team_cards{
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    #cards_left{
+        margin-right: 0px;
+    }
+
+    .team_card{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .team_photo{
+        width: 90px;
+        height: 90px;
+        border-radius:90px;
+        margin-right: 10px;
+
+    }
+
+    /* Startup values */
+    .cards_row{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .value_card{
+        width: 100%;
+        height: 400px;
+        padding: 60px 30px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (min-width:481px) and (max-width: 768px) {
+    .header{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textMain{
+        margin: 50px 0px 20px;
+    }
+
+    .header_content{
+        flex-direction:column;
+    }
+
+    .header_content .paragraphy{
+        text-align: justify;
+        width: 100%;
+    }
+    
+    .header_image{
+        width: 80%;
+        height: 200px;
+        margin: 50px auto;
+
+    }
+
+    /* Startup services */
+    .startup_about{
+        padding: 50px 30px;
+        flex-direction: column;
+    }
+
+    .startup_about .paragraphy{
+        width: 100%
+    }
+
+    .startup_img{
+        margin-top: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #robot{
+        flex-direction: column;
+    }
+
+    /* Nosso time */
+    .our_team{
+        width: 100%;
+        margin: 50px 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .team_cards{
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    #cards_left{
+        margin-right: 0px;
+    }
+
+    .team_card{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .team_photo{
+        width: 200px;
+        height: 200px;
+        border-radius:200px;
+        margin-right: 10px;
+    }
+
+    /* Startup values */
+    .cards_row{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .value_card{
+        width: 100%;
+        height: auto;
+        padding: 60px 30px;
+        margin-bottom: 20px;
+    }
+
 }
 
