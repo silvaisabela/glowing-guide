@@ -44,17 +44,20 @@
 }
 
 .titleMain {
+    color:  var(--primarycolor);
     font-size: var(--titleMain);
     line-height: var(--lineHeightMain);
     font-weight: 700;
 }
 
 .textMain {
+    color:  var(--primarycolor);
     font-size: var(--texMain);
     line-height: var(--textLineHeightMain);
 }
 
 .title {
+    color:  var(--primarycolor);
     font-size: var(--title);
     line-height: var(--lineHeightTitle);
     font-weight: 700;
@@ -66,6 +69,7 @@
 }
 
 .titleFree {
+    color:  var(--primarycolor);
     font-size: var(--titlefree);
     line-height: var(--lineHeighttitlefree);
     font-weight: 700;
