@@ -59,7 +59,10 @@
 #robot{
     flex-direction: row-reverse;
     background-color:  var(--primarycolor);
-    color: var(--secondarycolor);
+    color: #fff;
+}
+ #robot .title{
+    color: #fff;
 }
 
 /* Nosso time */
@@ -139,6 +142,7 @@
 
 .value_card .title{
     margin-bottom: 20px;
+    color: #000;
 }
 .teste{
     display: flex;
