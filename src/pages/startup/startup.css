@@ -5,6 +5,8 @@
 /* Header */
 .header{
     height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: column;
 
 }
 .textMain{
@@ -13,6 +15,7 @@
 
 .header_content{
     display: flex;
+    align-items: center;
 }
 
 .header_content .paragraphy{
@@ -22,8 +25,8 @@
 
 .header_image{
     width: 400px;
-    height: 300px;
-    object-fit: fill;
+    height: 200px;
+    object-fit: cover;
 }
 
 /* Startup services */
@@ -90,7 +93,7 @@
     height: 150px;
     background-color: var(--primarycolor);
     border-radius:150px;
-    margin-right: 10px;
+    margin-right: 20px;
     object-fit: cover;
 }
 
@@ -127,7 +130,7 @@
 
 .value_card{
     width: 32%;
-    height: 450px;
+    height: 350px;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 60px 30px;
